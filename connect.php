@@ -4,8 +4,8 @@
 	$subject = $_POST['subject'];
 	$message = $_POST['message'];
 
-	//$conn = new mysqli('localhost','root','','tounament');
-	$conn = new mysqli('sql208.epizy.com','epiz_25953094','XzJnAQoLpM','epiz_25953094_tournament');
+	$conn = new mysqli('localhost','root','','tounament');
+	//$conn = new mysqli('sql208.epizy.com','epiz_25953094','XzJnAQoLpM','epiz_25953094_tournament');
 	if($conn->connect_error)
 	{
 		die('Connection Failed : '.$conn->connect_error);

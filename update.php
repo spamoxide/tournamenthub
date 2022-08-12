@@ -77,7 +77,7 @@
 							$pl2=$row['p2'];
 							$pl3=$row['p3'];
 							$pl4=$row['p4'];
-							$payments=$row['payment'];
+							$payments=$row['Payment'];
 						}
 
 						?>

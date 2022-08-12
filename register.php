@@ -24,8 +24,8 @@ if(empty($_POST['l_nickname'])      ||
 	$p4 = $_POST['p4'];
 	$payment = 'Not Paid';
 
-	//$conn = new mysqli('localhost','root','','tounament');
-	$conn = new mysqli('sql208.epizy.com','epiz_25953094','XzJnAQoLpM','epiz_25953094_tournament');
+	$conn = new mysqli('localhost','root','','tounament');
+	//$conn = new mysqli('sql208.epizy.com','epiz_25953094','XzJnAQoLpM','epiz_25953094_tournament');
 
 	$count=0;
 	$res=mysqli_query($conn,"select * from register where l_cid='$_POST[l_cid]'");
